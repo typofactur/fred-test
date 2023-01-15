@@ -38,7 +38,7 @@ value = 950;
 },
 {
 name = typoDescender;
-value = -350;
+value = -450;
 },
 {
 name = typoLineGap;
@@ -50,7 +50,7 @@ value = 950;
 },
 {
 name = hheaDescender;
-value = -350;
+value = -450;
 },
 {
 name = hheaLineGap;
@@ -62,7 +62,7 @@ value = 950;
 },
 {
 name = winDescent;
-value = -350;
+value = -450;
 }
 );
 id = m01;
