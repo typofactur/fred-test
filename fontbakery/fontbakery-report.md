@@ -2,13 +2,10 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[14] Fred-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[9] Fred-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00A0 (NO-BREAK SPACE)
-
 
 	- 0x0308 (COMBINING DIAERESIS)
 
@@ -372,24 +369,11 @@ Fontbakery version: 0.8.10
 
 	- And 0x0328 (COMBINING OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name entry COPYRIGHT_NOTICE on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 0) has trailing spaces that must be removed: 'Copyright [...]ed-test3)
-' [code: trailing-space]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1002, but got 900 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 950, but got 900 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 422, but got 300 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -399,239 +383,6 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- Euro.001
-
-	- Lslash.002
-
-	- acute.001
-
-	- ampersand.001
-
-	- approxequal.001
-
-	- approxequal.002
-
-	- asciicircum.001
-
-	- asciitilde.001
-
-	- asterisk.001
-
-	- at.001
-
-	- backslash.001
-
-	- bar.001
-
-	- braceleft.001
-
-	- braceright.001
-
-	- bracketleft.001
-
-	- bracketright.001
-
-	- breve.001
-
-	- breve.002
-
-	- brokenbar.001
-
-	- bullet.001
-
-	- caron.001
-
-	- caron.002
-
-	- cedilla.001
-
-	- cent.001
-
-	- circumflex.001
-
-	- colon.001
-
-	- comma.001
-
-	- copyright.001
-
-	- currency.001
-
-	- dagger.001
-
-	- daggerdbl.001
-
-	- degree.001
-
-	- dieresis.001
-
-	- divide.001
-
-	- dollar.001
-
-	- dotaccent.001
-
-	- dotaccent.002
-
-	- eight.001
-
-	- ellipsis.001
-
-	- emdash.001
-
-	- endash.001
-
-	- equal.001
-
-	- exclam.001
-
-	- exclamdown.001
-
-	- five.001
-
-	- florin.001
-
-	- four.001
-
-	- fraction.001
-
-	- fraction.002
-
-	- grave.001
-
-	- greater.001
-
-	- guillemotleft.001
-
-	- guillemotright.001
-
-	- guilsinglleft.001
-
-	- guilsinglright.001
-
-	- hungarumlaut.001
-
-	- hungarumlaut.002
-
-	- hyphen.001
-
-	- less.001
-
-	- logicalnot.001
-
-	- lslash.002
-
-	- macron.001
-
-	- minus.001
-
-	- minus.002
-
-	- multiply.001
-
-	- nine.001
-
-	- numbersign.001
-
-	- ogonek.001
-
-	- ogonek.002
-
-	- one.001
-
-	- onehalf.001
-
-	- onequarter.001
-
-	- paragraph.001
-
-	- parenleft.001
-
-	- parenright.001
-
-	- percent.001
-
-	- period.001
-
-	- periodcentered.001
-
-	- perthousand.001
-
-	- plus.001
-
-	- plusminus.001
-
-	- question.001
-
-	- questiondown.001
-
-	- quotedbl.001
-
-	- quotedblbase.001
-
-	- quotedblleft.001
-
-	- quotedblright.001
-
-	- quoteleft.001
-
-	- quoteright.001
-
-	- quotesinglbase.001
-
-	- quotesingle.001
-
-	- registered.001
-
-	- ring.001
-
-	- ring.002
-
-	- section.001
-
-	- semicolon.001
-
-	- seven.001
-
-	- six.001
-
-	- slash.001
-
-	- space.001
-
-	- sterling.001
-
-	- three.001
-
-	- threequarters.001
-
-	- tilde.001
-
-	- trademark.001
-
-	- two.001
-
-	- underscore.001
-
-	- uni00B2.001
-
-	- uni00B3.001
-
-	- uni00B9.001
-
-	- yen.001 
-
-	- And zero.001
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -645,6 +396,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: a	Contours detected: 1	Expected: 2
 
+	- Glyph name: y	Contours detected: 2	Expected: 1
+
 	- Glyph name: Acircumflex	Contours detected: 2	Expected: 3
 
 	- Glyph name: Eth	Contours detected: 1	Expected: 2
@@ -665,21 +418,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: caron	Contours detected: 0	Expected: 1
-
-	- Glyph name: breve	Contours detected: 0	Expected: 1
-
-	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
-
-	- Glyph name: ring	Contours detected: 0	Expected: 2
-
-	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
-
 	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
-
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -688,8 +427,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: minus	Contours detected: 0	Expected: 1
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
@@ -727,12 +464,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: atilde	Contours detected: 2	Expected: 3
 
-	- Glyph name: breve	Contours detected: 0	Expected: 1
-
-	- Glyph name: caron	Contours detected: 0	Expected: 1
-
-	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
-
 	- Glyph name: eacute	Contours detected: 2	Expected: 3
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
@@ -741,11 +472,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fl	Contours detected: 1	Expected: 2
 
-	- Glyph name: fraction	Contours detected: 0	Expected: 1
-
 	- Glyph name: greaterequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -755,11 +482,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
-	- Glyph name: minus	Contours detected: 0	Expected: 1
-
 	- Glyph name: notequal	Contours detected: 0	Expected: 1
-
-	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
 
@@ -767,15 +490,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
-	- Glyph name: ring	Contours detected: 0	Expected: 2
-
 	- Glyph name: scaron	Contours detected: 3	Expected: 2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni03A9	Contours detected: 2	Expected: 1 
+	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
 
-	- And Glyph name: uni2206	Contours detected: 0	Expected: 2
+	- Glyph name: uni2206	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: y	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -816,6 +539,8 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
+	* Adieresis (U+00C4): B<<461.0,812.0>-<459.0,802.0>-<458.0,796.0>>/L<<458.0,796.0>--<458.0,797.0>> = 9.462322208025613
+
 	* X (U+0058): B<<455.0,15.0>-<457.0,15.0>-<457.0,16.0>>/B<<457.0,16.0>-<459.0,8.0>-<459.5,-2.0>> = 14.036243467926484
 
 	* eth (U+00F0): B<<420.0,157.5>-<431.0,177.0>-<431.0,176.0>>/B<<431.0,176.0>-<435.0,203.0>-<437.0,226.5>> = 8.426969021480636 
@@ -832,8 +557,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 9 | 119 | 8 | 86 | 0 |
-| 0% | 2% | 4% | 52% | 4% | 38% | 0% |
+| 0 | 2 | 7 | 117 | 8 | 93 | 0 |
+| 0% | 1% | 3% | 52% | 4% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
