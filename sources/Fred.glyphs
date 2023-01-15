@@ -4,6 +4,17 @@
 DisplayStrings = (
 A
 );
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 date = "2023-01-15 00:19:32 +0000";
 familyName = Fred;
 featurePrefixes = (
@@ -16,31 +27,41 @@ name = Languagesystems;
 );
 fontMaster = (
 {
-id = m01;
-metricValues = (
+customParameters = (
 {
-over = 16;
-pos = 800;
+name = typoAscender;
+value = 900;
 },
 {
-over = 16;
-pos = 700;
+name = typoDescender;
+value = -300;
 },
 {
-over = 16;
-pos = 500;
+name = typoLineGap;
+value = 0;
 },
 {
-over = -16;
+name = hheaAscender;
+value = 900;
 },
 {
-over = -16;
-pos = -200;
+name = hheaDescender;
+value = -300;
 },
 {
-over = -16;
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = -300;
 }
 );
+id = m01;
 name = Regular;
 }
 );
@@ -824,24 +845,12 @@ width = 600;
 unicode = 45;
 }
 );
-metrics = (
+instances = (
 {
-type = ascender;
-},
-{
-type = "cap height";
-},
-{
-type = "x-height";
-},
-{
-type = baseline;
-},
-{
-type = descender;
-},
-{
-type = "italic angle";
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
 }
 );
 properties = (
@@ -852,6 +861,19 @@ values = (
 language = dflt;
 value = "Copyright 2003 The Fred Project Authors (https://github.com/typofactur/fred-test3)
 ";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 }
