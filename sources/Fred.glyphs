@@ -30239,6 +30239,26 @@ note = threesuperior;
 unicode = 179;
 },
 {
+glyphname = "space-han";
+layers = (
+{
+layerId = m01;
+width = 1000;
+}
+);
+unicode = 12288;
+},
+{
+glyphname = "mediumspace-math";
+layers = (
+{
+layerId = m01;
+width = 222;
+}
+);
+unicode = 8287;
+},
+{
 glyphname = .notdef;
 lastChange = "2023-01-15 02:07:37 +0000";
 layers = (
@@ -30248,6 +30268,108 @@ width = 500;
 }
 );
 note = ".notdef";
+},
+{
+glyphname = emquad;
+layers = (
+{
+layerId = m01;
+width = 1000;
+}
+);
+unicode = 8193;
+},
+{
+glyphname = emspace;
+layers = (
+{
+layerId = m01;
+width = 1000;
+}
+);
+unicode = 8195;
+},
+{
+glyphname = enquad;
+layers = (
+{
+layerId = m01;
+width = 500;
+}
+);
+unicode = 8192;
+},
+{
+glyphname = enspace;
+layers = (
+{
+layerId = m01;
+width = 500;
+}
+);
+unicode = 8194;
+},
+{
+glyphname = figurespace;
+layers = (
+{
+layerId = m01;
+width = 525;
+}
+);
+metricWidth = zero;
+unicode = 8199;
+},
+{
+glyphname = fourperemspace;
+layers = (
+{
+layerId = m01;
+width = 250;
+}
+);
+unicode = 8197;
+},
+{
+glyphname = hairspace;
+layers = (
+{
+layerId = m01;
+width = 143;
+}
+);
+unicode = 8202;
+},
+{
+glyphname = narrownbspace;
+layers = (
+{
+layerId = m01;
+width = 240;
+}
+);
+unicode = 8239;
+},
+{
+glyphname = punctuationspace;
+layers = (
+{
+layerId = m01;
+width = 250;
+}
+);
+metricWidth = period;
+unicode = 8200;
+},
+{
+glyphname = sixperemspace;
+layers = (
+{
+layerId = m01;
+width = 167;
+}
+);
+unicode = 8198;
 },
 {
 glyphname = space;
@@ -30260,6 +30382,47 @@ width = 300;
 );
 note = space;
 unicode = 32;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+metricWidth = space;
+unicode = 160;
+},
+{
+glyphname = thinspace;
+layers = (
+{
+layerId = m01;
+width = 200;
+}
+);
+unicode = 8201;
+},
+{
+glyphname = threeperemspace;
+layers = (
+{
+layerId = m01;
+width = 333;
+}
+);
+unicode = 8196;
+},
+{
+glyphname = zerowidthspace;
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 8203;
 },
 {
 glyphname = period;
