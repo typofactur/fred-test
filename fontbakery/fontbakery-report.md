@@ -2,10 +2,13 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[9] Fred-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[11] Fred-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
+
+	- 0x00A0 (NO-BREAK SPACE)
+
 
 	- 0x0308 (COMBINING DIAERESIS)
 
@@ -372,8 +375,11 @@ Fontbakery version: 0.8.10
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 905, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 348, but got 300 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 422, but got 350 instead. [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+
+
+* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -383,6 +389,10 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -415,6 +425,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: eacute	Contours detected: 2	Expected: 3
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: scaron	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
 
@@ -488,6 +500,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
 
+	- Glyph name: scaron	Contours detected: 3	Expected: 2
+
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
@@ -553,8 +567,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 7 | 117 | 8 | 93 | 0 |
-| 0% | 1% | 3% | 52% | 4% | 41% | 0% |
+| 0 | 3 | 8 | 119 | 8 | 89 | 0 |
+| 0% | 1% | 4% | 52% | 4% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
