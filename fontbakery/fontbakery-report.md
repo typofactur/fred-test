@@ -372,8 +372,8 @@ Fontbakery version: 0.8.10
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 950, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 422, but got 300 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 927, but got 900 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 339, but got 300 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -415,8 +415,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: eacute	Contours detected: 2	Expected: 3
 
 	- Glyph name: edieresis	Contours detected: 3	Expected: 4
-
-	- Glyph name: scaron	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni03A9	Contours detected: 2	Expected: 1
 
@@ -489,8 +487,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: product	Contours detected: 0	Expected: 1
 
 	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: scaron	Contours detected: 3	Expected: 2
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
